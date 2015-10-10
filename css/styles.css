@@ -1,10 +1,18 @@
 body {
   color: #333;
   font-family: Helvetica, Arial, sans-serif;
-  background-color: skyblue; /* Sanity Check! */
+  background-color: white; /* Sanity Check! */
 }
 
 h1 {
-  margin-top: 100px;
   text-align: center;
+}
+.jumbotron {
+	min-height: 300px;
+}
+#postButton {
+	margin-top: 10px;
+}
+#postbox {
+	background-color: darkgrey;
 }

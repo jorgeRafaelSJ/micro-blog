@@ -17,13 +17,27 @@
     <!-- APPLICATION SCRIPTS -->
     <script src="base.js"></script>
   </head>
+
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 col-md-offset-2">
-          <h1>We're in good shape.</h1>
+
+    <div class="jumbotron">
+      <h1>HELLO</h1>
+      <!-- Search Form -->
+      <form class="form-horizontal">
+        <div class="container text-center">
+          <div class="form-group">
+            <div class="container col-sm-8 col-sm-offset-2">
+              <input type="text" class="form-control text-center" id="postEntry" placeholder="Whats up?">
+              <button class="btn btn-default" id="postButton" type="submit">Publish</button>
+            </div>
+          </div>
         </div>
-      </div>
+      </form><!-- Form ends -->
+    </div><!--Jumbotron ends -->
+          
+    <div class="container" id="postbox">
+
     </div>
+
   </body>
 </html>
