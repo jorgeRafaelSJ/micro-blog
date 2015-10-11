@@ -7,12 +7,6 @@ body {
 h1 {
   text-align: center;
 }
-.jumbotron {
-	min-height: 300px;
-}
 #postButton {
-	margin-top: 10px;
-}
-#postbox {
-	background-color: darkgrey;
+	margin-top: 20px;
 }
