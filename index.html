@@ -4,9 +4,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <title>Blank</title>
+    <title>Micro-blog</title>
 
     <!-- STYLESHEETS -->
+    <link href='https://fonts.googleapis.com/css?family=Raleway:500' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/styles.css">
 
@@ -27,17 +28,21 @@
         <div class="container text-center">
           <div class="form-group">
             <div class="container col-xs-8 col-xs-offset-2">
-              <input type="text" class="form-control text-center" id="postEntry" placeholder="Whats up?">
-              <button class="btn btn-default" id="postButton" type="submit">Publish</button>
+              <input type="text" class="form-control text-center" id="postEntry" placeholder="What's up?">
+              <button type="submit" class="btn btn-default" id="postButton" data-toggle="tooltip" data-placement="bottom" title="YAY! POST!">Publish post # 1</button>
             </div>
           </div>
         </div>
       </form><!-- Form ends -->
+
+  
     </div><!--Jumbotron ends -->
           
     <div class="container" id="post-box">
-        <ul class="list-group" id ="post-list"></ul>
+        <ul class="list-group col-xs-10 col-xs-offset-1" id ="post-list"></ul>
     </div>
+
+
 
   </body>
 </html>
