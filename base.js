@@ -51,8 +51,7 @@ $(document).ready(function(){
 	});
 
 
-
-	//tooltip
+	//tooltip bootstrap
 	$(function () {
 	  $('[data-toggle="tooltip"]').tooltip();
 	});
